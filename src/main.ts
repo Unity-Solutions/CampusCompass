@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { appConfig } from './app/app.config';
-import {MainPageComponent} from "./app/application/components/main-page/main-page.component";
+import {MainPageComponent} from "./app/application/pages/main-page/main-page.component";
 import {AppComponent} from "./app/app.component";
 
 
