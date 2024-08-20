@@ -6,8 +6,11 @@
   </p>
   <div class="news-grid">
     <div class="news-item" *ngFor="let news of newsItems" [ngStyle]="{'background-image': 'url(' + news.imageUrl + ')'}">
-      <h2 class="news-title">{{ news.title }}</h2>
-      <p class="news-description">{{ news.description }}</p>
+      <a href="{{news.newsUrl}}">
+        <h2 class="news-title">{{ news.title }}</h2>
+        <p class="news-description">{{ news.description }}</p>
+      </a>
+
     </div>
   </div>
 

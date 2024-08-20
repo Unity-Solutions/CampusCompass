@@ -3,6 +3,7 @@ import {InfoComponent, NavComponent} from "../../../shared/";
 import {PersNewsComponent} from "../../components/pers-news/pers-news.component";
 import {NewsMainComponent} from "../../components/news-main/news-main.component";
 import {MoreNewsComponent} from "../../components/more-news/more-news.component";
+import {NewsEndingBarComponent} from "../../components/news-ending-bar/news-ending-bar.component";
 
 @Component({
   selector: 'app-news-page',
@@ -12,7 +13,8 @@ import {MoreNewsComponent} from "../../components/more-news/more-news.component"
     PersNewsComponent,
     NewsMainComponent,
     MoreNewsComponent,
-    InfoComponent
+    InfoComponent,
+    NewsEndingBarComponent
   ],
   templateUrl: './news-page.component.html',
   styleUrl: './news-page.component.scss'
