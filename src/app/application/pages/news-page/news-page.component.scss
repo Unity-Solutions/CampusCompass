@@ -4,7 +4,17 @@
 }
 
 .pers-news{
-  margin-top: 20vh;
+  margin-top: 12vh;
+  height: 50vh;
+  min-height: 200px;
+}
+
+.news-main{
+  margin-top: 5vh;
+}
+
+.more-news{
+  margin-top: 10vh;
 }
 
 .container{
@@ -12,4 +22,8 @@
   justify-items: center;
   margin: 2vh 10vw 0 10vw;
   height: 100vh;
+}
+
+.ending-bar {
+  margin: 7vh 0;
 }
