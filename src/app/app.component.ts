@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {ApplicationModule} from "./application/application.module";
-import {MainPageComponent} from "./application/pages/main-page/main-page.component";
+import {MainPageComponent} from "./application/modules/main-page/main-page/main-page.component";
 
 @Component({
   selector: 'app-root',
