@@ -14,7 +14,13 @@ body {
   font-style: normal;
 }
 
-
+hr{
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: var(--dark-green);
+  margin: 1vh 0 1vh 0;
+}
 
 :root {
   --dark-green: #043A0E;
