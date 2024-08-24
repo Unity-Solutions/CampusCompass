@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PhotoCarouselComponent } from './photo-carousel.component';
+import { PhotoCarouselComponent } from './PhotoCarouselComponent';
 
 describe('PhotoCarouselComponent', () => {
   let component: PhotoCarouselComponent;
