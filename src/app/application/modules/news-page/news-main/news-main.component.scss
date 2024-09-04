@@ -26,9 +26,13 @@ h1{
 
 h2{
   margin-bottom: 3vh;
-  font-size: 2vw;
+  font-size: 1rem;
   font-weight: 400;
   font-family: 'Tamil MN', sans-serif;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 .news-grid{
@@ -48,4 +52,11 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .news-grid {
+        grid-template-columns: 1fr; /* 1 колонка */
+        grid-template-rows: repeat(6, auto); /* 6 строк */
+    }
 }

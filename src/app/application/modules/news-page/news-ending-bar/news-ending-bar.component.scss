@@ -25,3 +25,13 @@
   margin-right: 10%;
   font-size: 0.9rem;
 }
+
+button {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover{
+  background-color: var(--light-green);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: var(--dark-green);
+}
