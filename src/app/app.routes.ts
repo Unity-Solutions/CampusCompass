@@ -21,4 +21,5 @@ export const routes: Routes = [
   {path: 'login', component: LogInComponent},
   {path: 'reg', component: RegistrationComponent},
   {path: 'prof', component: ProfileComponent},
+  { path: '', redirectTo: '/main', pathMatch: 'full' }
 ];
