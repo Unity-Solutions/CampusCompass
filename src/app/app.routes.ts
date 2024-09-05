@@ -12,7 +12,7 @@ import {RegistrationComponent} from "./application/modules/autorisation/registra
 import {ProfileComponent} from "./application/modules/profile-page/profile/profile.component";
 
 export const routes: Routes = [
-  {path: '', component: MainPageComponent},
+  {path: 'main', component: MainPageComponent},
   {path: 'news', component: NewsPageComponent},
   {path: 'students', component: StudentsPageComponent},
   {path: 'universities', component: UniversitiesPageComponent},
