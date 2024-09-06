@@ -56,7 +56,7 @@ p {
 
 @media (max-width: 600px) {
     .news-grid {
-        grid-template-columns: 1fr; /* 1 колонка */
-        grid-template-rows: repeat(6, auto); /* 6 строк */
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
     }
 }
