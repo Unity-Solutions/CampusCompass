@@ -15,6 +15,7 @@ a{
 p{
   text-align: center;
   font-weight: 400;
+  font-size: 1rem;
 }
 
 h1{
@@ -26,16 +27,13 @@ h1{
 
 h2{
   margin-bottom: 3vh;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   font-family: 'Tamil MN', sans-serif;
 }
 
-p {
-  font-size: 0.8rem;
-}
-
 .news-grid{
+  width: 100%;
   margin-top: 5vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -52,6 +50,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 @media (max-width: 600px) {

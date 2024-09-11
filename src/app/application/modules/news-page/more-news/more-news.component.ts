@@ -39,7 +39,7 @@ export class MoreNewsComponent {
       authorPosition: 'Student Editor',
       date: '01.01.2024',
       newsUrl: '/'
-    },
+     },
     {
       title: 'What your choice of university degree means for your future earnings',
       imageUrl: '/img/news-page/news-images/news-image.3.png',
