@@ -1,4 +1,15 @@
-<div class="container">
-  <h1>To get personalized <br>news</h1>
-  <button (click)="redirectToLogin()" class="login">Login</button>
+<div *ngIf="authService.isUserLoggedIn(); else notLoggedIn" class="container-log">
+  <h1>Glad to see you back</h1>
+  <p>Here is a selection of news that might interest you</p>
+  <button (click)="redirectToLogin()" >Update me</button>
 </div>
+
+<ng-template #notLoggedIn>
+  <div class="container">
+    <h1>To get personalized <br>news</h1>
+    <button (click)="redirectToLogin()">Login</button>
+  </div>
+</ng-template>
+
+
+
