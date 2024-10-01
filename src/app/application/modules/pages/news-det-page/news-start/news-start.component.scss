@@ -1,0 +1,36 @@
+.container {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--dark-green);
+}
+
+.date {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 1.2ng s vw;
+}
+
+.author {
+  font-size: 1.2vw;
+}
+
+.author span:first-child {
+  font-family: 'Tamil MN', serif;
+  font-weight: bold;
+}
+
+.author span:first-child::after {
+  content: ' • ';
+}
+
+.author span:last-child {
+  font-family: 'Inter', serif;
+}
+
+.newsName {
+  font-family: 'Tamil MN', serif;
+  font-weight: bold;
+  font-size: 5vw;
+}

@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { ApplicationModule } from './application/application.module';
-import { AutorisationModule } from './application/modules/autorisation/autorisation.module';
-import { PagesModule } from './application/modules/pages/pages.module';
+import { Component } from '@angular/core'
+import { RouterOutlet } from '@angular/router'
+import { ApplicationModule } from './application/application.module'
+import { AutorisationModule } from './application/modules/autorisation/autorisation.module'
+import { PagesModule } from './application/modules/pages/pages.module'
 
 @Component({
   selector: 'app-root',
@@ -10,5 +10,5 @@ import { PagesModule } from './application/modules/pages/pages.module';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'proj01';
+  title = 'proj01'
 }

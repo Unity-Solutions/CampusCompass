@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { InfoComponent } from '../../../../shared';
-import { RegLandingComponent, RegBlockComponent } from '../';
+import { Component } from '@angular/core'
+import { InfoComponent } from '../../../../shared'
+import { RegLandingComponent, RegBlockComponent } from '../'
 
 @Component({
   selector: 'app-registration',

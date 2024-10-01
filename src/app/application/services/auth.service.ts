@@ -1,24 +1,24 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core'
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AuthService {
-  private isLoggedIn: boolean = false;
+  private isLoggedIn: boolean = false
 
   login(username: string, password: string): boolean {
     if (username && password) {
-      this.isLoggedIn = true;
-      return true;
+      this.isLoggedIn = true
+      return true
     }
-    return false;
+    return false
   }
 
   logout(): void {
-    this.isLoggedIn = false;
+    this.isLoggedIn = false
   }
 
   isUserLoggedIn(): boolean {
-    return this.isLoggedIn;
+    return this.isLoggedIn
   }
 }

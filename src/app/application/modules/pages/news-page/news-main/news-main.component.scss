@@ -1,4 +1,4 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,38 +7,38 @@
   font-family: 'Inter', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--dark-green);
 }
 
-p{
+p {
   text-align: center;
   font-weight: 400;
 }
 
-h1{
+h1 {
   margin-bottom: 3vh;
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
 }
 
-h2{
+h2 {
   margin-bottom: 3vh;
   font-size: 2vw;
   font-weight: 400;
   font-family: 'Tamil MN', sans-serif;
 }
 
-.news-grid{
+.news-grid {
   margin-top: 5vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.news-item{
+.news-item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -1,24 +1,29 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import {JobDetLandingComponent, JobDetInfoComponent, JobDetCompanyComponent, JobDetSubComponent} from "./";
-import {VacancyDetailComponent} from "./"
-import {SharedModule} from "../../../../shared/shared.module";
-
+import { NgModule } from '@angular/core'
+import { CommonModule } from '@angular/common'
+import {
+  JobDetLandingComponent,
+  JobDetInfoComponent,
+  JobDetCompanyComponent,
+  JobDetSubComponent,
+} from './'
+import { VacancyDetailComponent } from './'
+import { SharedModule } from '../../../../shared/shared.module'
 
 @NgModule({
-  declarations: [VacancyDetailComponent,
+  declarations: [
+    VacancyDetailComponent,
     JobDetInfoComponent,
     JobDetCompanyComponent,
     JobDetSubComponent,
-    JobDetLandingComponent],
-  imports: [
-    CommonModule,
-    SharedModule
+    JobDetLandingComponent,
   ],
-  exports:[VacancyDetailComponent,
+  imports: [CommonModule, SharedModule],
+  exports: [
+    VacancyDetailComponent,
     JobDetInfoComponent,
     JobDetCompanyComponent,
     JobDetSubComponent,
-    JobDetLandingComponent]
+    JobDetLandingComponent,
+  ],
 })
-export class VacancyDetailsModule { }
+export class VacancyDetailsModule {}
