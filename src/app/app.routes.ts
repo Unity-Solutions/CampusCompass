@@ -10,10 +10,13 @@ import {VacancyDetailComponent} from "./application/modules/vacancy-details/vaca
 import {LogInComponent} from "./application/modules/autorisation/log-in/log-in.component";
 import {RegistrationComponent} from "./application/modules/autorisation/registration/registration.component";
 import {ProfileComponent} from "./application/modules/profile-page/profile/profile.component";
+import {DetPageComponent} from "./application/modules/news-det-page/det-page/det-page.component";
+
 
 export const routes: Routes = [
   {path: '', component: MainPageComponent},
   {path: 'news', component: NewsPageComponent},
+  {path: 'news/:id', component: DetPageComponent},
   {path: 'students', component: StudentsPageComponent},
   {path: 'universities', component: UniversitiesPageComponent},
   {path: 'jobs', component: JobsPageComponent},

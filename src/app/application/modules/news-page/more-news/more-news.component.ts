@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgForOf, NgIf} from "@angular/common";
+import {RouterLink} from "@angular/router";
 
 interface News {
   title: string;
@@ -9,13 +10,15 @@ interface News {
   authorPosition: string;
   date: string;
   newsUrl: string;
+  id: number;
 }
 @Component({
   selector: 'app-more-news',
   standalone: true,
   imports: [
     NgForOf,
-    NgIf
+    NgIf,
+    RouterLink
   ],
   templateUrl: './more-news.component.html',
   styleUrl: './more-news.component.scss'
@@ -29,7 +32,8 @@ export class MoreNewsComponent {
       author: 'Drake Baer',
       authorPosition: 'Business Insider',
       date: '01.01.2024',
-      newsUrl: '/'
+      newsUrl: 'news/1',
+      id: 1,
     },
     {
       title: 'Four strategies for remembering everything you learn.',
@@ -38,7 +42,8 @@ export class MoreNewsComponent {
       author: 'Drake Baer',
       authorPosition: 'Student Editor',
       date: '01.01.2024',
-      newsUrl: '/'
+      newsUrl: '/',
+      id: 2,
      },
     {
       title: 'What your choice of university degree means for your future earnings',
@@ -47,7 +52,8 @@ export class MoreNewsComponent {
       author: 'Drake Baer',
       authorPosition: 'Business Insider',
       date: '01.01.2024',
-      newsUrl: '/'
+      newsUrl: '/',
+      id: 3,
     },
   ]
 }
