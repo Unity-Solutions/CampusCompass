@@ -19,4 +19,11 @@ export const routes: Routes = [
         (m) => m.AutorisationModule
       ),
   },
+
+  {
+    path: 'news',
+    loadChildren: () =>
+      import('./modules/pages/news-page/')
+  }
+
 ];
