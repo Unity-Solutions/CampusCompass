@@ -2,7 +2,7 @@
 <hr>
 <div class="news-block">
   <div class="news-item" *ngFor="let news of newsItems; let i = index">
-    <a class="news-data" routerLink="['/news', news.id]">
+    <a class="news-data" href="{{news.newsUrl}}">
       <div class="news-image">
         <img src="{{news.imageUrl}}">
       </div>

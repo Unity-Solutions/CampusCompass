@@ -20,10 +20,4 @@ export const routes: Routes = [
       ),
   },
 
-  {
-    path: 'news',
-    loadChildren: () =>
-      import('./modules/pages/news-page/')
-  }
-
 ];

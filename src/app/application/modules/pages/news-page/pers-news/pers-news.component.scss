@@ -19,38 +19,12 @@ h1{
   font-size: 3rem;
 }
 
-p{
-  color: var(--dark-green);
-  font-family: 'Inter', sans-serif;
+.login{
   margin-top: 1%;
-}
-
-.container-log{
-  background-image: url('/img/news-page/landing-log.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-button {
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  margin-top: 3%;
-  padding: 10px 20px;
-  border-radius: 10px;
+  height: 10%;
+  width: 10%;
+  border-radius: 10%;
   border: none;
   background: var(--dark-green);
   color: var(--light-green);
-}
-
-button:hover{
-  background-color: var(--light-green);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  color: var(--dark-green);
 }
