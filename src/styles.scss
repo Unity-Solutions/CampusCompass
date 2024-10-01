@@ -22,9 +22,18 @@ hr{
   margin: 1vh 0 1vh 0;
 }
 
+.page-container{
+  justify-content: center;
+  justify-items: center;
+  margin: 2vh 10vw 0 10vw !important;
+  height: 100vh;
+}
+
 :root {
   --dark-green: #043A0E;
   --light-green: #DDDCCA;
   --light-yellow: #DDDCCA;
 }
+
+
 

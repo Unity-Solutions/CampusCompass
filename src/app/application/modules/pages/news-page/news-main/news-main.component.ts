@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import {NgStyle} from "@angular/common";
 
 interface News {
   title: string;
@@ -8,7 +9,6 @@ interface News {
 }
 @Component({
   selector: 'app-news-main',
-  standalone: true,
   templateUrl: './news-main.component.html',
   styleUrl: './news-main.component.scss'
 })

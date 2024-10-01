@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {UniLandingComponent, MapBlockUniversitiesComponent, UniversitiesPageComponent} from "./";
+import {SharedModule} from "../../../../shared/shared.module";
 
 
 @NgModule({
@@ -9,6 +10,7 @@ import {UniLandingComponent, MapBlockUniversitiesComponent, UniversitiesPageComp
     MapBlockUniversitiesComponent],
   imports: [
     CommonModule,
+    SharedModule
   ],
   exports: [UniversitiesPageComponent,
   UniversitiesPageComponent,
