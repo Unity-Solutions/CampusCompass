@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { InfoComponent } from '../../../../shared'
+import { InfoComponent } from '../../../../../shared'
 import { RegLandingComponent, RegBlockComponent } from '../'
 
 @Component({

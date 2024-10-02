@@ -15,7 +15,7 @@ export const routes: Routes = [
   {
     path: 'auth',
     loadChildren: () =>
-      import('./modules/autorisation/autorisation.module').then(
+      import('./modules/pages/autorisation/autorisation.module').then(
         (m) => m.AutorisationModule
       ),
   },

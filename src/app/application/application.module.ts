@@ -4,7 +4,7 @@ import { SharedModule } from '../shared/shared.module'
 import { PagesModule } from './modules/pages/pages.module'
 import { RouterModule } from '@angular/router'
 import { routes } from './application.routes'
-import { AutorisationModule } from './modules/autorisation/autorisation.module'
+import { AutorisationModule } from './modules/pages/autorisation/autorisation.module'
 
 @NgModule({
   declarations: [],

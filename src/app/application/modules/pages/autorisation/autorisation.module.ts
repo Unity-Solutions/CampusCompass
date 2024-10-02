@@ -9,7 +9,7 @@ import {
   LogInComponent,
 } from './'
 import { ReactiveFormsModule } from '@angular/forms'
-import { SharedModule } from '../../../shared/shared.module'
+import { SharedModule } from '../../../../shared/shared.module'
 import { provideRouter, RouterModule } from '@angular/router'
 import { routes } from './autorisation.routes'
 import { AuthService } from './services/auth.service'
@@ -38,7 +38,7 @@ import { getFirestore } from 'firebase/firestore'
 import { getFunctions } from 'firebase/functions'
 import { getMessaging } from 'firebase/messaging'
 import { getStorage } from 'firebase/storage'
-import { firebaseConfig } from '../../../../../credentials'
+import { firebaseConfig } from '../../../../../../credentials'
 
 @NgModule({
   providers: [

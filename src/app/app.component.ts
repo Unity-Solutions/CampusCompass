@@ -1,8 +1,4 @@
 import { Component } from '@angular/core'
-import { RouterOutlet } from '@angular/router'
-import { ApplicationModule } from './application/application.module'
-import { AutorisationModule } from './application/modules/autorisation/autorisation.module'
-import { PagesModule } from './application/modules/pages/pages.module'
 
 @Component({
   selector: 'app-root',

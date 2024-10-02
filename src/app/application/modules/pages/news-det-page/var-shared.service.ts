@@ -9,4 +9,5 @@ export class VarSharedService {
   author: string = 'Drake Baer'
   authorPosition: string = 'Business Insider'
   newsImageUrl: string = '/img/news-page/news-images/news-image.1.png'
+  newsContent: string = ''
 }

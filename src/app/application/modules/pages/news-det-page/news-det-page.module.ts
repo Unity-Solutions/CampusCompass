@@ -14,5 +14,11 @@ import { SharedModule } from '../../../../shared/shared.module'
     NewsStartComponent,
   ],
   imports: [CommonModule, SharedModule],
+  exports: [
+    DetPageComponent,
+    NewsContentComponent,
+    NewsEndComponent,
+    NewsStartComponent,
+  ],
 })
 export class NewsDetPageModule {}
