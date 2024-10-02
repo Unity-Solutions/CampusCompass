@@ -1,5 +1,38 @@
 @import "@coreui/coreui/scss/coreui";
 
+h2, p {
+  color: var(--dark-green)
+}
+
 c-carousel-control img {
   height: 50px;
+}
+
+.card {
+  padding-inline: 0.75rem;
+  .card-img-conteiner {
+    position: relative;
+  }
+  .card-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    color: var(--dark-green);
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0,25rem;
+    background-color: var(--light-green-50);
+    border-radius: 20%;
+  }
+  
+  
+}
+
+.card-img {
+  border-radius: 10%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 8%;
 }

@@ -17,6 +17,7 @@ import {
   CarouselControlComponent,
 } from '@coreui/angular'
 import { RouterLink } from '@angular/router'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations' //Fucking animations that eats my PC
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { RouterLink } from '@angular/router'
     CarouselControlComponent,
     NgFor,
     NgOptimizedImage,
+    // BrowserAnimationsModule, //Fucking animations that eats my PC
   ],
   exports: [
     MainPageComponent,
