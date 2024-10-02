@@ -1,8 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.slider {
-  background: black;
-  height: 300px;
+@import "@coreui/coreui/scss/coreui";
+
+c-carousel-control img {
+  height: 50px;
 }
