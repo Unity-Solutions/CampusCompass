@@ -1,19 +1,10 @@
-import { Component } from '@angular/core';
-import {InfoComponent} from "../../../../shared";
-import {RegLandingComponent, RegBlockComponent} from "../";
-
+import { Component } from '@angular/core'
+import { InfoComponent } from '../../../../shared'
+import { RegLandingComponent, RegBlockComponent } from '../'
 
 @Component({
   selector: 'app-registration',
-  standalone: true,
-  imports: [
-    InfoComponent,
-    RegLandingComponent,
-    RegBlockComponent,
-  ],
   templateUrl: './registration.component.html',
-  styleUrl: './registration.component.scss'
+  styleUrl: './registration.component.scss',
 })
-export class RegistrationComponent {
-
-}
+export class RegistrationComponent {}

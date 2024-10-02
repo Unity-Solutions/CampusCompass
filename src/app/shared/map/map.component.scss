@@ -1,14 +1,13 @@
-.container{
+.container {
   display: flex;
   width: 100%;
   justify-content: center;
 }
-.region{
-  fill: #DDDCCA;
+.region {
+  fill: #dddcca;
 }
 
-.region:hover{
-            cursor: pointer;
-            fill:#EBFB3196;
-
-          }
+.region:hover {
+  cursor: pointer;
+  fill: #ebfb3196;
+}

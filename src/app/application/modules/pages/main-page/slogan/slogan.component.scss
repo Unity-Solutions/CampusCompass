@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+button {
+  width: 50%;
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ body {
   font-style: normal;
 }
 
-hr{
+hr {
   border: none;
   height: 1px;
   width: 100%;
@@ -22,10 +22,15 @@ hr{
   margin: 1vh 0 1vh 0;
 }
 
-:root {
-  --dark-green: #043A0E;
-  --light-green: #DDDCCA;
-  --light-yellow: #DDDCCA;
-
+.page-container {
+  justify-content: center;
+  justify-items: center;
+  margin: 2vh 10vw 0 10vw !important;
+  height: 100vh;
 }
 
+:root {
+  --dark-green: #043a0e;
+  --light-green: #dddcca;
+  --light-yellow: #dddcca;
+}

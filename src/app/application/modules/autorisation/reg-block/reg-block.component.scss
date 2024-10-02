@@ -2,7 +2,9 @@
   height: 200px;
   background: gray;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  place-items: center;
   margin-top: 5vh;
   border-radius: 20px;
 }
