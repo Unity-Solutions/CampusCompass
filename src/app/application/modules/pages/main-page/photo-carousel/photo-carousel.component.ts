@@ -6,44 +6,22 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./photo-carousel.component.scss'],
 })
 export class PhotoCarouselComponent implements OnInit {
-  currentSlide = 0
-  items = [
-    'Find university',
-    'Find job',
-    'Proforientation',
-    'Item 4',
-    'Item 5',
-    'Item 6',
-    'Item 7',
-    'Item 8',
-    'Item 9',
-  ]
-  visibleItems = 3
+  slides: any[] = new Array(3).fill({
+    id: -1,
+    src: '',
+    title: '',
+    subtitle: '',
+  })
 
-  constructor() {}
-
-  ngOnInit(): void {}
-
-  prev(): void {
-    this.currentSlide =
-      this.currentSlide === 0
-        ? this.items.length - this.visibleItems
-        : this.currentSlide - this.visibleItems
-    this.updateSlidePosition()
-  }
-
-  next(): void {
-    this.currentSlide =
-      this.currentSlide >= this.items.length - this.visibleItems
-        ? 0
-        : this.currentSlide + this.visibleItems
-    this.updateSlidePosition()
-  }
-
-  updateSlidePosition(): void {
-    const carouselInner = document.querySelector(
-      '.carousel-inner'
-    ) as HTMLElement
-    carouselInner.style.transform = `translateX(-${this.currentSlide * (100 / this.visibleItems)}%)`
+  ngOnInit(): void {
+    this.slides[0] = {
+      src: '/img/carousel/andrew-neel-cup.png',
+    }
+    this.slides[1] = {
+      src: '/img/carousel/andrew-neel-young-woman-pc.png',
+    }
+    this.slides[2] = {
+      src: '/img/carousel/pexels-cottonbro-news.png',
+    }
   }
 }
