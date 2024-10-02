@@ -3,12 +3,10 @@
     CampusCompass is more than just a university <br>
     search
   </p>
-  <!-- <div class="slider">
-
-  </div> -->
 
 
-  <div id="carouselExample" class="carousel slide">
+
+  <!-- <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div>
@@ -63,4 +61,17 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> -->
+  <h1>jjjjffiawtyoryt8rhah</h1>
+  <c-carousel (itemChange)="onItemChange($event)" [interval]="5000" transition="slide">
+    <c-carousel-inner>
+      <c-carousel-item *ngFor="let slide of slides">
+        <img
+          [src]="slide.src"
+          alt="{{slide.title}}"
+          class="d-block w-100"
+          loading="lazy"
+        />
+      </c-carousel-item>
+    </c-carousel-inner>
+  </c-carousel>
