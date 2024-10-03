@@ -12,5 +12,6 @@ export const routes: Routes = [
   {
     path: 'news/:id',
     component: DetPageComponent,
+    pathMatch: 'full',
   },
 ]

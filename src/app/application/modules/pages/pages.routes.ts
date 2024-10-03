@@ -7,9 +7,4 @@ export const routes: Routes = [
     component: MainPageComponent,
     pathMatch: 'full',
   },
-  {
-    path: 'news',
-    loadChildren: () =>
-      import('./news-page/news-page.module').then((m) => m.NewsPageModule),
-  },
 ]
