@@ -5,3 +5,17 @@
 .news-photo img {
   width: 100%;
 }
+
+.news-text {
+  font-size: 1.1rem;
+  margin-top: 10vh;
+  font-family: Inter, sans-serif;
+  color: var(--dark-green);
+}
+::ng-deep li{
+  margin-left: 2rem;
+}
+
+::ng-deep p, h1 {
+  margin: 15px 0;
+}

@@ -1,5 +1,5 @@
 .container {
-  height: 35vh;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,11 +9,12 @@
 .date {
   font-family: 'Inter', sans-serif;
   font-weight: normal;
-  font-size: 1.2ng s vw;
+  font-size: 1rem;
+  margin: 2vh 0;
 }
 
 .author {
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 .author span:first-child {
@@ -32,5 +33,5 @@
 .newsName {
   font-family: 'Tamil MN', serif;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 4rem;
 }
