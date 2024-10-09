@@ -3,8 +3,8 @@ header {
   height: 6vh;
   width: 100%;
   border-radius: 12px;
-  padding: 7px ; 
-  box-sizing: border-box; 
+  padding: 7px ;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
@@ -13,7 +13,7 @@ header {
 }
 .logo {
   height: 100%;
- 
+
 }
 .logo img{
   height: 100%;
@@ -34,7 +34,7 @@ header {
 }
 .links{
   width: 50%;
- 
+
 }
 
 .nav-list1 li{
@@ -49,18 +49,18 @@ header {
   width: 100%;
 }
 .buttons{
-  width: 16%;
+  width: 19%;
 }
 .profile-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #76a89f;  
+  background-color: #76a89f;
   border: none;
-  border-radius: 12px; 
+  border-radius: 12px;
   color: var(--light-green);
-  
+
   cursor: pointer;
   transition: background-color 0.3s;
   height: 100%;
@@ -82,7 +82,7 @@ header {
   width: 26px;
   height: 26px;
   fill: none;
-  stroke:var(--light-green); 
+  stroke:var(--light-green);
 }
 .lang-button {
   display: flex;
@@ -91,11 +91,11 @@ header {
   height: 100%;
   aspect-ratio: 1/1;
   width: auto;
-  background: none; 
+  background: none;
   color: var(--light-green);
   font-size: 20px;
-  border: 1px solid var(--light-green); 
-  border-radius: 12px; 
+  border: 1px solid var(--light-green);
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: 200;
@@ -107,13 +107,13 @@ header {
   align-items: center;
   aspect-ratio: 1/1;
   height: 100%;
-  background: none; 
+  background: none;
   border: none;
-  border-radius: 12px; 
+  border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 1px solid var(--light-green); 
-  border-radius: 12px; 
+  border: 1px solid var(--light-green);
+  border-radius: 12px;
 
 }
 .mode-switch svg{
