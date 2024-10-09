@@ -1,0 +1,13 @@
+:host {
+  height: 200px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  border-radius: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

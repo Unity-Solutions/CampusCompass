@@ -1,0 +1,37 @@
+.container {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  background-image: url('/img/news-page/news-ending.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  align-items: end;
+}
+
+.upd-btn {
+  border: none;
+  background: var(--dark-green);
+  width: 18%;
+  text-align: left;
+  border-radius: 5px;
+  height: 20%;
+  padding: 0 3%;
+  color: var(--light-green);
+  margin-right: 10%;
+  font-size: 0.9rem;
+}
+
+button {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover{
+  background-color: var(--light-green);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: var(--dark-green);
+}

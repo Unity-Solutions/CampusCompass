@@ -1,0 +1,17 @@
+<form [formGroup]="fg">
+  <label for="email"
+    >Email:
+    <input type="email" formControlName="email" id="email" />
+  </label>
+  <label for="password"
+    >Password:
+    <input type="password" formControlName="password" id="password" />
+  </label>
+
+  <input
+    type="button"
+    value="Login"
+    (click)="handleLogin()"
+    [disabled]="!fg.valid"
+  />
+</form>
