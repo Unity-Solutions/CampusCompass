@@ -11,13 +11,13 @@ header {
   font-size: 20px;
   color: var(--light-green);
 }
+
 .logo {
   height: 100%;
 
 }
 .logo img{
   height: 100%;
-  width: auto;
 }
 .nav-list{
   display: flex;
@@ -32,9 +32,9 @@ header {
 
 
 }
+
 .links{
   width: 50%;
-
 }
 
 .nav-list1 li{
@@ -108,12 +108,10 @@ header {
   aspect-ratio: 1/1;
   height: 100%;
   background: none;
-  border: none;
   border-radius: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   border: 1px solid var(--light-green);
-  border-radius: 12px;
 
 }
 .mode-switch svg{
