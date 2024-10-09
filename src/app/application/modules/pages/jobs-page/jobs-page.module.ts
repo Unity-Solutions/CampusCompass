@@ -6,6 +6,7 @@ import {
   JobsLandingComponent,
 } from './'
 import { SharedModule } from '../../../../shared/shared.module'
+import { RouterModule } from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { SharedModule } from '../../../../shared/shared.module'
     VacanciesBlockComponent,
     JobsLandingComponent,
   ],
-  imports: [CommonModule, SharedModule],
+  imports: [CommonModule, SharedModule, RouterModule],
   exports: [JobsPageComponent, VacanciesBlockComponent, JobsLandingComponent],
 })
 export class JobsPageModule {}
