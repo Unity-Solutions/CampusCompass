@@ -1,35 +1,32 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { NavComponent, InfoComponent, MapComponent } from '../../../shared';
+import { NgModule } from '@angular/core'
+import { CommonModule } from '@angular/common'
+import { SharedModule } from '../../../shared/shared.module'
+import { RouterModule } from '@angular/router'
+import { routes } from './pages.routes'
 import {
-  MainPageComponent,
-  MapBlockComponent,
-  SloganComponent,
-  AboutUsComponent,
-  PhotoCarouselComponent,
-  PartnersComponent,
-} from '.';
-import { SharedModule } from '../../../shared/shared.module';
-import { RouterModule } from '@angular/router';
-import { routes } from './pages.routes';
+  NewsPageModule,
+  MainPageModule,
+  ProfilePageModule,
+  StudentsPageModule,
+  UniversitiesPageModule,
+  VacancyDetailsModule,
+  NewsDetPageModule,
+} from './'
 
 @NgModule({
-  declarations: [
-    MainPageComponent,
-    MapBlockComponent,
-    PartnersComponent,
-    PhotoCarouselComponent,
-    SloganComponent,
-    AboutUsComponent,
+  declarations: [],
+  imports: [
+    CommonModule,
+    SharedModule,
+    RouterModule.forChild(routes),
+    NewsPageModule,
+    MainPageModule,
+    ProfilePageModule,
+    StudentsPageModule,
+    UniversitiesPageModule,
+    VacancyDetailsModule,
+    NewsDetPageModule,
   ],
-  imports: [CommonModule, SharedModule, RouterModule.forChild(routes)],
-  exports: [
-    MainPageComponent,
-    MapBlockComponent,
-    PartnersComponent,
-    PhotoCarouselComponent,
-    SloganComponent,
-    AboutUsComponent,
-  ],
+  exports: [],
 })
 export class PagesModule {}

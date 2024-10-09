@@ -1,0 +1,25 @@
+<h3>More news</h3>
+<hr />
+<div class="news-block">
+  <div class="news-item" *ngFor="let news of newsItems; let i = index">
+    <a class="news-data" href="{{ news.newsUrl }}">
+      <div class="news-image">
+        <img src="{{ news.imageUrl }}" />
+      </div>
+      <div class="news-content">
+        <h2 class="news-title">{{ news.title }}</h2>
+        <p class="news-description">{{ news.description }}</p>
+        <div class="news-meta">
+          <p class="author">{{ news.author }}</p>
+          <span class="news-separator">•</span>
+          <p class="author-pos">{{ news.authorPosition }}</p>
+          <span class="news-separator">•</span>
+          <p class="date">{{ news.date }}</p>
+        </div>
+      </div>
+    </a>
+    <div class="divider" *ngIf="i < newsItems.length - 1">
+      <hr />
+    </div>
+  </div>
+</div>

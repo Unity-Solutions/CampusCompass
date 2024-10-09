@@ -1,7 +1,8 @@
-export {MainPageComponent} from "./main-page/main-page.component"
-export {SloganComponent} from "./slogan/slogan.component"
-export {PhotoCarouselComponent} from "./photo-carousel/photo-carousel.component"
-export {AboutUsComponent} from "./about-us/about-us.component"
-export {MapBlockComponent} from "./map-block/map-block.component"
-export {PartnersComponent} from "./partners/partners.component"
-
+export * from './main-page/main-page.module'
+export * from './jobs-page/jobs-page.module'
+export * from './news-page/news-page.module'
+export * from './profile-page/profile-page.module'
+export * from './students-page/students-page.module'
+export * from './vacancy-details/vacancy-details.module'
+export * from './universities-page/universities-page.module'
+export * from './news-det-page/news-det-page.module'

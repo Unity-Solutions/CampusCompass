@@ -1,0 +1,65 @@
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{0}: checkout: moving from news_det_page to dev
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{1}: checkout: moving from dev to news_det_page
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{2}: rebase (finish): returning to refs/heads/dev
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{3}: rebase (start): checkout HEAD
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{4}: checkout: moving from dev to news_det_page
+[33mcdf82b3[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{5}: checkout: moving from news_det_page to dev
+[33m745034e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/news_det_page[m[33m, [m[1;32mnews_det_page[m[33m)[m HEAD@{6}: commit: edited
+[33m98a5e6d[m HEAD@{7}: commit (merge): merged
+[33m750c7fe[m HEAD@{8}: commit: added details page with news
+[33m952a0e7[m[33m ([m[1;31morigin/agitation_block[m[33m, [m[1;32magitation_block[m[33m)[m HEAD@{9}: merge origin/backend-integration: updating HEAD
+[33m952a0e7[m[33m ([m[1;31morigin/agitation_block[m[33m, [m[1;32magitation_block[m[33m)[m HEAD@{10}: checkout: moving from agitation_block to news_det_page
+[33m952a0e7[m[33m ([m[1;31morigin/agitation_block[m[33m, [m[1;32magitation_block[m[33m)[m HEAD@{11}: commit: login service created + agitation button
+[33ma57ec9b[m[33m ([m[1;31morigin/news-page-anim[m[33m, [m[1;32mnews-page-anim[m[33m)[m HEAD@{12}: checkout: moving from news-page-anim to agitation_block
+[33ma57ec9b[m[33m ([m[1;31morigin/news-page-anim[m[33m, [m[1;32mnews-page-anim[m[33m)[m HEAD@{13}: commit: button animation + optimisation for mobles
+[33mdb6e0fa[m HEAD@{14}: checkout: moving from Photo-carousel to news-page-anim
+[33mf8e7422[m[33m ([m[1;31morigin/Photo-carousel[m[33m, [m[1;32mPhoto-carousel[m[33m)[m HEAD@{15}: checkout: moving from news-page-anim to Photo-carousel
+[33mdb6e0fa[m HEAD@{16}: checkout: moving from Photo-carousel to news-page-anim
+[33mf8e7422[m[33m ([m[1;31morigin/Photo-carousel[m[33m, [m[1;32mPhoto-carousel[m[33m)[m HEAD@{17}: checkout: moving from news-page-anim to Photo-carousel
+[33mdb6e0fa[m HEAD@{18}: commit: redacted
+[33m410daa1[m HEAD@{19}: commit: button animations added
+[33mcdf82b3[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{20}: checkout: moving from dev to news-page-anim
+[33mcdf82b3[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{21}: checkout: moving from dev to dev
+[33mcdf82b3[m[33m ([m[1;31morigin/dev[m[33m)[m HEAD@{22}: branch: Reset to origin/dev
+[33m2c2ec5d[m HEAD@{23}: checkout: moving from news-page-animations to dev
+[33m2c2ec5d[m HEAD@{24}: checkout: moving from dev to news-page-animations
+[33m2c2ec5d[m HEAD@{25}: checkout: moving from structure to dev
+[33m1f9152e[m HEAD@{26}: commit: corrected structure, spec files were removed, barrel added
+[33m2c2ec5d[m HEAD@{27}: checkout: moving from dev to structure
+[33m2c2ec5d[m HEAD@{28}: checkout: moving from master to dev
+[33m64bbdac[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{29}: checkout: moving from main to master
+[33m6b1c514[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{30}: checkout: moving from dev to main
+[33m2c2ec5d[m HEAD@{31}: checkout: moving from map to dev
+[33m3a70de4[m HEAD@{32}: checkout: moving from dev to map
+[33m2c2ec5d[m HEAD@{33}: pull origin dev: Fast-forward
+[33m22dbcec[m HEAD@{34}: checkout: moving from dev to dev
+[33m22dbcec[m HEAD@{35}: branch: Reset to origin/dev
+[33m22dbcec[m HEAD@{36}: checkout: moving from map to dev
+[33m3a70de4[m HEAD@{37}: checkout: moving from news-page to map
+[33m8b05b02[m HEAD@{38}: commit: news page frontend made
+[33md2c5bfa[m HEAD@{39}: commit: news page landing + main news component made
+[33me0956d3[m HEAD@{40}: pull origin mockup: Merge made by the 'ort' strategy.
+[33m22dbcec[m HEAD@{41}: checkout: moving from dev to news-page
+[33m22dbcec[m HEAD@{42}: checkout: moving from mockup to dev
+[33m5e2f3a6[m HEAD@{43}: commit: finished mockup + started routing
+[33mb75b43c[m HEAD@{44}: checkout: moving from map to mockup
+[33m3a70de4[m HEAD@{45}: checkout: moving from mockup to map
+[33mb75b43c[m HEAD@{46}: commit: map-block
+[33m75ae684[m HEAD@{47}: checkout: moving from map to mockup
+[33m3a70de4[m HEAD@{48}: checkout: moving from mockup to map
+[33m75ae684[m HEAD@{49}: checkout: moving from map to mockup
+[33m3a70de4[m HEAD@{50}: checkout: moving from mockup to map
+[33m75ae684[m HEAD@{51}: checkout: moving from map to mockup
+[33m3a70de4[m HEAD@{52}: checkout: moving from mockup to map
+[33m75ae684[m HEAD@{53}: checkout: moving from map to mockup
+[33m3a70de4[m HEAD@{54}: commit: changes in map-block and created map-module
+[33m9aa2503[m HEAD@{55}: checkout: moving from mockup to map
+[33m75ae684[m HEAD@{56}: commit: students page made
+[33m3d289a5[m HEAD@{57}: commit: news page mockup
+[33mdccb83b[m HEAD@{58}: commit: corrections in structure
+[33m8f4188b[m HEAD@{59}: Branch: renamed refs/heads/mokap to refs/heads/mockup
+[33m8f4188b[m HEAD@{61}: commit: main page mockup
+[33m1bc8e96[m HEAD@{62}: checkout: moving from dev to mokap
+[33m1bc8e96[m HEAD@{63}: commit: main-page mokap
+[33m64bbdac[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{64}: checkout: moving from master to dev
+[33m64bbdac[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{65}: commit (initial): initial commit

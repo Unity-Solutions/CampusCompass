@@ -1,4 +1,4 @@
-import { Routes } from '@angular/router';
+import { Routes } from '@angular/router'
 
 export const routes: Routes = [
   {
@@ -6,6 +6,7 @@ export const routes: Routes = [
     redirectTo: '/home',
     pathMatch: 'full',
   },
+
   {
     path: 'home',
     loadChildren: () =>
@@ -13,10 +14,18 @@ export const routes: Routes = [
   },
 
   {
+    path: 'news',
+    loadChildren: () =>
+      import('./modules/pages/news-page/news-page.module').then(
+        (m) => m.NewsPageModule
+      ),
+  },
+
+  {
     path: 'auth',
     loadChildren: () =>
-      import('./modules/autorisation/autorisation.module').then(
+      import('./modules/pages/autorisation/autorisation.module').then(
         (m) => m.AutorisationModule
       ),
   },
-];
+]

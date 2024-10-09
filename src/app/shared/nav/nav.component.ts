@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { AuthService } from '../../application/modules/autorisation/services/auth.service';
+import { Component } from '@angular/core'
+import { AuthService } from '../../application/modules/pages/autorisation/services/auth.service'
 
 @Component({
   selector: 'app-nav',
@@ -28,12 +28,12 @@ import { AuthService } from '../../application/modules/autorisation/services/aut
 })
 export class NavComponent {
   public get user$() {
-    return this._authService.user$;
+    return this._authService.user$
   }
 
   constructor(private readonly _authService: AuthService) {}
 
   public logout() {
-    this._authService.logOut();
+    this._authService.logOut()
   }
 }

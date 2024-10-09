@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>News</h2>
+  <h1>
+    Be in trend of what`s <br />
+    happenning
+  </h1>
+  <p>
+    Find news that interest you, whether it’s popular <br />jobs or profession
+    articles. See what’s new ....
+  </p>
+  <div class="news-grid">
+    <div
+      class="news-item"
+      *ngFor="let news of newsItems"
+      [ngStyle]="{ 'background-image': 'url(' + news.imageUrl + ')' }"
+    >
+      <a href="{{ news.newsUrl }}">
+        <h2 class="news-title">{{ news.title }}</h2>
+        <p class="news-description">{{ news.description }}</p>
+      </a>
+    </div>
+  </div>
+</div>
