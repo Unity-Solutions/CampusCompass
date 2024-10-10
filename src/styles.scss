@@ -1,3 +1,5 @@
+@import 'quill/dist/quill.snow.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -22,11 +24,14 @@ hr {
   margin: 1vh 0 1vh 0;
 }
 
-.page-container {
-  justify-content: center;
-  justify-items: center;
-  margin: 2vh 10vw 0 10vw !important;
-  height: 100vh;
+#det-news-text {
+  li{
+    margin-left: 2rem;
+  }
+
+  p, h1 {
+    margin: 15px 0;
+  }
 }
 
 :root {

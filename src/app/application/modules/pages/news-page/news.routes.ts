@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router'
 import { NewsPageComponent } from './news-page/news-page.component'
 import { DetPageComponent } from '../news-det-page'
+import { EditorPageComponent } from '../news-editor/editor-page/editor-page.component'
 
 export const routes: Routes = [
   {
@@ -10,8 +11,14 @@ export const routes: Routes = [
   },
 
   {
-    path: 'news/:id',
-    component: DetPageComponent,
+    path: 'news/editor',
+    component: EditorPageComponent,
     pathMatch: 'full',
   },
+
+  // {
+  //   path: 'news/:id',
+  //   component: DetPageComponent,
+  //   pathMatch: 'full',
+  // },
 ]
