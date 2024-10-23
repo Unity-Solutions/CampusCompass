@@ -28,6 +28,7 @@ export const appProviders = [
   provideRouter(routes),
   ApplicationModule,
   provideFirebaseApp(() => initializeApp(firebaseConfig)),
+  provideFirestore(() => getFirestore()),
   provideAuth(() => getAuth()),
   provideAnalytics(() => getAnalytics()),
   ScreenTrackingService,

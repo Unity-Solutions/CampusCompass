@@ -16,9 +16,9 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
 
-  // {
-  //   path: 'news/:id',
-  //   component: DetPageComponent,
-  //   pathMatch: 'full',
-  // },
+  {
+    path: 'news/:id',
+    component: DetPageComponent,
+    pathMatch: 'full',
+  },
 ]

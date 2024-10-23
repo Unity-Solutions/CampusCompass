@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { VarSharedService } from '../var-shared.service'
+import { VarSharedService } from '../../../../services'
 
 @Component({
   selector: 'app-news-content',

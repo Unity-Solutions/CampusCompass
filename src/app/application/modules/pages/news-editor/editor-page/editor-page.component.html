@@ -1,2 +1,5 @@
-<quill-editor></quill-editor>
-
+<div>
+  <quill-editor [(ngModel)]="editorContent" (onContentChanged)="onContentChange($event)">
+  </quill-editor>
+  <button (click)="sendContent()">Отправить</button>
+</div>

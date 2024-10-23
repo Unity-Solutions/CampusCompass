@@ -5,6 +5,8 @@ import { AppComponent } from './app.component'
 import { BrowserModule } from '@angular/platform-browser'
 import { ApplicationModule } from './application/application.module'
 import { SharedModule } from './shared/shared.module'
+import { NewsEditorModule } from './application/modules/pages/news-editor/news-editor.module'
+import { VarSharedService } from './application/services'
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,7 +15,9 @@ import { SharedModule } from './shared/shared.module'
     ApplicationModule,
     BrowserModule,
     SharedModule,
+    NewsEditorModule,
   ],
+  providers: [VarSharedService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
