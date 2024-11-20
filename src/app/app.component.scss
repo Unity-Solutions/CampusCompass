@@ -1,6 +1,11 @@
 .page-container {
-  justify-content: center;
-  justify-items: center;
   margin: 1rem 15vw !important;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+app-info {
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 }
