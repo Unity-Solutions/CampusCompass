@@ -1,15 +1,34 @@
 .text {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 1.1rem;
+  color: var(--dark-green);
+  font-family: Inter;
 }
 
 .moto {
-  line-height: 60px;
-  font-size: 60px;
+  font-size: 3rem;
+  font-family: "Tamil MN";
+  font-weight: bold;
+  color: var(--dark-green);
 }
 
 .map-button {
   margin-top: 20px;
+  background: var(--not-so-light-green);
+  border: none;
+  color: var(--light-green);
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+  font-family: Inter;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-button:hover{
+  background-color: var(--light-green);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: var(--not-so-light-green);
 }
 
 .img-cont {
