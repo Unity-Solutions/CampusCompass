@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core'
-import { CommonModule } from '@angular/common'
+import { CommonModule, NgOptimizedImage } from "@angular/common";
 import {
   MainPageComponent,
   MapBlockComponent,
@@ -19,7 +19,7 @@ import { SharedModule } from '../../../../shared/shared.module'
     MapBlockComponent,
     PartnersComponent,
   ],
-  imports: [CommonModule, SharedModule],
+  imports: [CommonModule, SharedModule, NgOptimizedImage],
   exports: [
     MainPageComponent,
     SloganComponent,

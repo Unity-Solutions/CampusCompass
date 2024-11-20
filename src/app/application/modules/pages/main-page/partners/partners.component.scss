@@ -3,20 +3,41 @@
   margin: 0;
 }
 
-.links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  grid-gap: 10px;
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.partn-cont {
-  align-content: center;
-  display: grid;
-  justify-content: center;
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-family: "Tamil MN";
+  color: var(--dark-green);
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
-img {
-  height: 150px;
+.links {
+  display: flex;
+  width: 40%;
+  height: 4.4rem;
+  justify-content: space-between;
+
+  a {
+    height: 100%;
+  }
+
+  img {
+    height: 100%;
+  }
 }
+
