@@ -6,9 +6,7 @@
 }
 
 .moto {
-  font-size: 3rem;
-  font-family: "Tamil MN";
-  font-weight: bold;
+  font: var(--font-header);
   color: var(--dark-green);
 }
 
