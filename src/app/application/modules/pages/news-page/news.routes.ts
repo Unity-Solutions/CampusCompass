@@ -7,18 +7,15 @@ export const routes: Routes = [
   {
     path: 'news',
     component: NewsPageComponent,
-    pathMatch: 'full',
   },
 
   {
     path: 'news/editor',
     component: EditorPageComponent,
-    pathMatch: 'full',
   },
 
   {
     path: 'news/:id',
     component: DetPageComponent,
-    pathMatch: 'full',
   },
 ]

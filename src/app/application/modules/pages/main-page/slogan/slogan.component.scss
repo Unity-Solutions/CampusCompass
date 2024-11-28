@@ -3,17 +3,32 @@
   padding: 0;
 }
 
+h1 {
+  font: var(--font-header) !important;
+  color: var(--dark-green);
+}
+
 .container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  gap: 10rem;
+
 }
 
 button {
-  width: 50%;
+  color: var(--light-green);
+  background: var(--not-so-light-green);
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0 2rem;
+  font-size: 0.9rem;
+  font-family: Inter;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.but {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+button:hover{
+  background-color: var(--light-green);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: var(--not-so-light-green);
 }
+

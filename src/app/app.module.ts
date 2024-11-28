@@ -11,7 +11,9 @@ import { VarSharedService } from './application/services'
 @NgModule({
   declarations: [AppComponent],
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'top',
+    }),
     ApplicationModule,
     BrowserModule,
     SharedModule,
