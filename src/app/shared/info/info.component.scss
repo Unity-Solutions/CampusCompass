@@ -1,32 +1,79 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
+  position: relative;
+  width: 60%;
+  background: none;
   display: flex;
-  justify-content: center;
 }
 
-.container::before {
-  content: '';
-  background: black;
+.container::before{
+  content: "";
+  background: var(--dark-green);
   align-self: stretch;
-  width: 2px;
+  width: 1px;
 }
 
-.col:first-child {
+.column:first-child{
   order: -1;
+}
+.active-link {
+  font-weight: bold;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.column{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2rem;
+  padding: 0.8rem;
 }
 
-.col {
-  padding: 15px;
+.links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  height: auto;
 }
 
-.col:last-child {
+.link img {
+  height: 2rem;
+  vertical-align: middle;
+}
+.gmail{
+  text-decoration: none;
+  color: var(--dark-green);
+  font-family: "Inter";
+}
+
+.left{
+  margin-right: auto;
+}
+.right{
+  margin-left: auto;
+}
+.nav-list {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: start;
+  align-items: start;
+  height: 100%;
+  font-family: "Inter";
 }
+
+.nav-list li {
+  display: flex; /* Дополнительно для гибкости */
+}
+
+.nav-list a {
+  text-align: left;
+  vertical-align: top;
+  text-decoration: none;
+  color: var(--dark-green);
+}
+
